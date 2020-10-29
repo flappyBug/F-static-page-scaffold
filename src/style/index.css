@@ -9,8 +9,32 @@ body {
   color: white;
 }
 
+.header-content {
+  width: 981px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
 .register-button {
   background-color: #42b72a;
+  padding: 4px 12px;
+  font-size: small;
+}
+
+.logo {
+  height: 4rem;
+  display: inline;
+}
+
+.join-facebook {
+  font-size: small;
 }
 
 .content {
