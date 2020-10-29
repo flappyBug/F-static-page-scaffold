@@ -2,6 +2,7 @@ body {
   font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
     BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   background-color: #e9ebee;
+  margin: 0;
 }
 
 .header {
@@ -24,6 +25,8 @@ body {
 
 .register-button {
   background-color: #42b72a;
+  border: none;
+  color: white;
   padding: 4px 12px;
   font-size: small;
 }
@@ -35,8 +38,46 @@ body {
 
 .join-facebook {
   font-size: small;
+  color: white;
+  text-decoration: none;
 }
 
 .content {
   width: 981px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.card {
+  background-color: white;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.card > * {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: large;
+}
+
+.card > p {
+  color: gray;
+}
+
+.card > button {
+  border-radius: 3px;
+  border: lightgray 1px solid;
+  padding: 4px 8px;
+  margin-top: 4rem;
 }
